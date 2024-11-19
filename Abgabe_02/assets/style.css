@@ -1,0 +1,107 @@
+/*
+Colors:
+#D0DB97
+#69B578
+#3A7D44
+*/
+
+.flex {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+body{
+    border: #3A7D44 solid 2px;
+}
+.header{
+    /*background-color: #3A7D44;*/
+    border: 1px grey;
+    padding: 20px;
+    background-color: #3A7D44;
+    background-image: linear-gradient(180deg, #3A7D44, #69B578, #D0DB97);
+}
+
+h1{
+    padding: 30px;
+    margin: 0px;
+    text-align: center;
+    font-family: "Garamond", serif;
+}
+
+nav{
+    background-color: #D0DB97;
+    /*margin: 0px;*/
+    padding: 2px;
+    /*border-top: grey solid 2px;
+    border-bottom: grey solid 2px;*/
+    font-family: "Garamond", serif;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none; /*Hyperlink-Look vermeiden*/
+    color: black;
+}
+
+.hover-effect{
+    background: conic-gradient(#69B578 0 0) var(--p,0)/var(--p,0) no-repeat;
+    transition: .4s,background-position 0s;
+    padding: 10px;
+}
+
+.hover-effect:hover {
+    --p: 100%;
+    background-color: #D0DB97;
+}
+
+.ul-nav{
+    list-style-type: none;
+    overflow: hidden;
+    /*background-color: #D0DB97;*/
+    padding: 0px;
+}
+
+h2{
+    text-align: left;
+    font-family: "Garamond", serif;
+    padding: 10px;
+    background-color: #69B578;
+    width: 65%;
+}
+
+h3{
+    text-align: left;
+    font-family: "Garamond", serif;
+    padding: 10px;
+    background-color: #69B578;
+    width: 35%;
+}
+
+table{
+    align-content: center;
+    border:1px solid black;
+    width:25%
+}
+
+th, td {
+    border:1px solid black;
+}
+
+footer{
+    background-color: #69B578;
+
+}
+
+.p-footer{
+    text-align: left;
+    font-family: "Calibri", serif;
+    background-color: #69B578;
+    margin: 0px;
+    padding: 10px;
+}
+
+p{
+    font-family: "Calibri", serif;
+}
