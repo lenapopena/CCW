@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Merry Christmas!</title>
+    <!--Google Font: Orbitron-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <!--Custom Stylesheet-->
+    <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+<h1>Merry Christmas!</h1>
+<form id="christmasForm">
+    <div class="flex">
+        <label for="lightSwitch">Lights on/off:</label>
+        <select id="lightSwitch">
+            <option value="off">Off</option>
+            <option value="on">On</option>
+        </select>
+    </div>
+    <div class="flex">
+        <label for="lightColor">Wire lights color:</label>
+        <select id="lightColor">
+            <option value="yellow">Yellow</option>
+            <option value="blue">Blue</option>
+            <option value="red">Red</option>
+        </select>
+    </div>
+</form>
+<div class="treeDisplay">
+    <div class="wireLight-1"></div>
+    <div class="wireLight-2"></div>
+    <div class="wireLight-3"></div>
+    <div class="wireLight-4"></div>
+    <div class="wireLight-5"></div>
+</div>
+<script src="/assets/wireLights.js"></script>
+</body>
+</html>
